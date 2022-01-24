@@ -5,7 +5,7 @@ class Rectangle:
 
     def area(self):
         result = self.height * self.width
-        return result
+        return f"{result:.2f}"
 
     def diagonal(self):
         result = ((self.height * self.height) + (self.width * self.width)) ** 0.5
