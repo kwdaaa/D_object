@@ -2,10 +2,12 @@ class Circle:
     def __init__(self, radius):
         self.radius = radius
 
+    # 円の面積を求める。(半径×半径×3.14)
     def area(self):
         result = self.radius * self.radius * 3.14
         return result
 
+    # 円の円周を求める。（直径×3.14）
     def perimeter(self):
         result = self.radius * 2 * 3.14
         return result

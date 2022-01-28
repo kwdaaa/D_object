@@ -3,10 +3,12 @@ class Rectangle:
         self.height = height
         self.width = width
 
+    # 長方形の面積を求める。（高さ×幅）※小数点第二位以下を四捨五入
     def area(self):
         result = self.height * self.width
         return f"{result:.2f}"
 
+    # 長方形の対角線の長さを求める。（(高さの2乗 + 幅の2乗)×0.5×0.5）※小数点第二位以下を四捨五入
     def diagonal(self):
         result = ((self.height * self.height) + (self.width * self.width)) ** 0.5
         return f"{result:.2f}"

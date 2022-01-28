@@ -4,11 +4,11 @@ class MyCounterV3:
         self.step = step
 
     def count_up(self):
-        self.value += (1 * self.step)
+        self.value += self.step
         return self.value
 
     def count_down(self):
-        self.value -= (1 * self.step)
+        self.value -= self.step
         return self.value
 
 
